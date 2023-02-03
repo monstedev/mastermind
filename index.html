@@ -10,9 +10,9 @@
 <body>
     <main>
 
-        <h1 id="result">Pensa a un numero...</h1>
+        <h1 id="result">Think about a number...</h1>
         <p>
-            Pensa a un numero da 1 a 60 e seleziona il/i box in cui è contenuto, indovinerò, vuoi provare?
+            Think about a number between 1 and 60, then click the boxes where the number is, I'll guess, do you want to try?
         </p>
         <div id="game">
             <div class="boxes">
@@ -236,7 +236,7 @@
                 </div>
 
             </div>
-            <div id="submit" class="btn">Invia</div>
+            <div id="submit" class="btn">Submit</div>
         </div>
 
 
@@ -264,7 +264,7 @@
             });
 
             console.log(userNumber);
-            resultDisplay.textContent = `Il tuo numero è ${userNumber}, giusto?`;
+            resultDisplay.textContent = `Your number is ${userNumber}, right?`;
         });
 
         boxes.forEach(function (box) {
